@@ -1,10 +1,16 @@
-# VJEPA + Adaptive masking
+<h2>🧠 VJEPA + Adaptive Masking</h2>
 
-Codebase for VJEPA + Adaptive masking. 
+<p>Codebase for <strong>VJEPA</strong> with <strong>Adaptive Masking</strong>.</p>
 
-#Setup
+<h3>⚙️ Setup Instructions</h3>
 
-- conda create env --vjepa
-- conda activate vjepa
-- conda install python==3.9.23
-- pip install -r requirements.txt
+<pre><code># 1. Create and activate the conda environment
+conda create -n vjepa python=3.9.23
+conda activate vjepa
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Install the package
+python setup.py install
+</code></pre>
