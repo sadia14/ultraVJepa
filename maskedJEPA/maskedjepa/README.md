@@ -14,3 +14,10 @@ pip install -r requirements.txt
 # 3. Install the package
 python setup.py install
 </code></pre>
+
+<h3>🚀 Run Evaluation</h3>
+
+<pre><code>python -m evals.main \
+  --fname configs/eval/vitl16_in1k.yaml \
+  --devices cuda:0 cuda:1 cuda:2
+</code></pre>
