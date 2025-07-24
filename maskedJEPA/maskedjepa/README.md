@@ -18,6 +18,6 @@ python setup.py install
 <h3>🚀 Run Evaluation</h3>
 
 <pre><code>python -m evals.main \
-  --fname configs/eval/vitl16_in1k.yaml \
+  --fname configs/eval/vith16_in1k.yaml \
   --devices cuda:0 cuda:1 cuda:2
 </code></pre>
